@@ -1,0 +1,17 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: main.app
+  secure: always
+
+libraries:
+- name: ssl
+  version: "2.7.11"
+- name: flask
+  version: "0.12"
+
+skip_files:
+- deploy.bat

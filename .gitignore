@@ -1,0 +1,4 @@
+lib/*
+settings.py
+gs_token.json
+deploy.bat
