@@ -104,7 +104,7 @@ def find_tea(name):
     for cell in cell_find_result:
         logging.debug(u"找到座標 {}, {}".format(cell.row, cell.col))
         if cell.row < 100:
-            cell_list.append(cell.row)
+            cell_list.append(cell.row - 1)
 
     title = ""
     subtitle = ""
